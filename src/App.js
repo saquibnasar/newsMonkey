@@ -21,7 +21,7 @@ export default class App extends Component {
           <NavBar />
           <LoadingBar color="#f11946" progress={this.state.progress} />
           <Switch>
-            <Route exact path="/general">
+            <Route path="/newsMonkey">
               <News
                 setProgress={this.setProgress}
                 apiKey={this.apiKey}
